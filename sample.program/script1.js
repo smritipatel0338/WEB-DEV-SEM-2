@@ -53,12 +53,48 @@
             i++;
             
         }
-        */
+        
        
         let i=1;
         do {
             console.log(i);
             i++;
         } while (i<=5);
+         
+        let numbers =[1,2,3,4];
+        let square=numbers.map(num=> num*num);
+        console.log(square);
+
+        let numbers1=[10,15,20,25];
+        let result=numbers1.filter(num=> num>15);
+        console.log(result);
+        */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        let sum=numbers.reduce((acc,num)=>acc+num,0);
+        console.log(sum);
+
+
 
             
