@@ -70,6 +70,11 @@ ul, ol {
     margin-bottom: 1.5em;
     box-shadow: 0 2px 8px rgba(45, 108, 223, 0.05);
 }
-
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 10px solid black;
+    border-radius: 15px;
 }
 
