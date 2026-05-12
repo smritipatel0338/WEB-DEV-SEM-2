@@ -1,0 +1,79 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+/* Container styling */
+.container {
+    background: #ffffff;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 400px;
+}
+
+/* Heading styling */
+#heading {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+/* Label and input styling */
+.labels {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.labels label {
+    font-weight: bold;
+    color: #555;
+}
+
+.labels input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* Button styling */
+.button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    margin: 8px 0;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100%;
+}
+
+/* Button hover effect */
+.button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+/* Reset button special color */
+.button:last-of-type {
+    background-color: #f44336;
+}
+
+.button:last-of-type:hover {
+    background-color: #d32f2f;
+}

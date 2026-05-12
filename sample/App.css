@@ -1,0 +1,22 @@
+.container{
+  text-align: center;
+  margin-top: 5px;
+  background-color:white; 
+}
+.box{
+  display: inline-block;
+ padding: 20px;
+  color: black;
+}
+.card{
+    font-style: bold;
+    background-color: rgb(240, 221, 45);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    margin: 5px;
+    
+}
+

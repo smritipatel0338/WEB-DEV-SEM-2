@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mechanism</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+     <nav class="navbar">
+    <div class="nav-container">
+        <ul class="nav-list">
+            <button class ="home"><i><a href="PREREQUISITE.html">Home</a></i></button>
+             <button class ="modes"><i><a href="modes.html">Modes</a></i></button>
+            <button class ="dimension"><i><a href="dimension.html">Dimension</a></i></button>
+            <button class ="gameplay"><i><a href="gameplayloop.html">Gameplayloop</a></i></button>
+           
+            
+        </ul>
+        </div>
+    </nav>
+    <form>
+        <select id="mechanism-type" name="mechanism-type">
+            <option value="door">Door</option>
+            <option value="trap">Trap</option>
+            <option value="farm">Farm</option>
+            <option value="other">Other</option>
+        </select>
+        
+        <label for="mechanism-description">Description:</label>
+        <textarea id="mechanism-description" name="mechanism-description" rows="4"></textarea>
+        
+        <button type="submit">Submit</button>
+    </form>
+    <table border="1">
+        <tr>
+            <th>Category</th>
+            <th>Description</th>
+            <th>Examples</th>
+        </tr>
+        <tr>
+            <td>Redstone Basics</td>
+            <td>Redstone can be mined from ore blocks and used to create circuits</td>
+            <td>Redstone dust, switches, buttons, pistons</td>
+        </tr>
+        <tr>
+            <td>Creating Mechanisms</td>
+            <td>Building functional contraptions using redstone components</td>
+            <td>Hidden doors, automated farms</td>
+        </tr>
+        <tr>
+            <td>Advanced Mechanisms</td>
+            <td>Complex designs using redstone logic and creativity</td>
+            <td>Combination locks, minecart systems, computers</td>
+        </tr>
+    </table>
+</body>
+</html>
